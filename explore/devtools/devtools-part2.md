@@ -1,0 +1,2 @@
+1. The bug was that the inputs 'num1' and 'num2' were being read as strings. So when they were added, it resulted in string concatenation instead of numeric addition.
+2. I would convert the input strings to numbers using 'Number()' before adding them.
